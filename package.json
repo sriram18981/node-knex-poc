@@ -4,6 +4,7 @@
   "description": "A nodejs application with support from Knex as ORM and MySql",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +21,17 @@
   "bugs": {
     "url": "https://github.com/sriram18981/node-knex-poc/issues"
   },
-  "homepage": "https://github.com/sriram18981/node-knex-poc#readme"
+  "homepage": "https://github.com/sriram18981/node-knex-poc#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-pino-logger": "^4.0.0",
+    "install": "^0.13.0",
+    "knex": "^0.19.4",
+    "mysql2": "^1.7.0",
+    "npm": "^6.11.3",
+    "pino": "^5.13.3"
+  },
+  "devDependencies": {
+    "pino-pretty": "^3.2.1"
+  }
 }

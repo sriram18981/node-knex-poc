@@ -1,0 +1,14 @@
+version: '3'
+services:
+  db:
+    image: mysql:latest
+    command: --default-authentication-plugin=mysql_native_password
+    environment:
+      - MYSQL_ROOT_PASSWORD=password
+    volumes:
+      - mysql_data_knex:/var/lib/mysql
+    ports: 
+      - 3306:3306
+
+volumes: 
+  mysql_data_knex:
