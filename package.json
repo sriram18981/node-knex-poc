@@ -28,8 +28,8 @@
     "install": "^0.13.0",
     "knex": "^0.19.4",
     "mysql": "^2.17.1",
-    "nodemon": "^1.19.2",
-    "npm": "^6.11.3",
+    "nodemon": "^2.0.3",
+    "npm": "^7.21.0",
     "pino": "^5.13.3"
   },
   "devDependencies": {
