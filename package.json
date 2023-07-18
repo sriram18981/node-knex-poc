@@ -27,7 +27,7 @@
     "express-pino-logger": "^4.0.0",
     "install": "^0.13.0",
     "knex": "^0.19.4",
-    "mysql": "^2.17.1",
+    "mysql": "^2.18.0",
     "nodemon": "^1.19.2",
     "npm": "^6.11.3",
     "pino": "^5.13.3"
