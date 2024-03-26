@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/sriram18981/node-knex-poc#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.19.2",
     "express-pino-logger": "^4.0.0",
     "install": "^0.13.0",
     "knex": "^0.19.4",
